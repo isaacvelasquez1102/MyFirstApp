@@ -1,8 +1,63 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
+
+    ext.androidMaterialVersion = '1.1.0-alpha02'
+    ext.androidNavigationVersion = '1.0.0'
+    ext.androidSupportVersion = '28.0.0'
+    ext.androidXCoreVersion = '1.1.0'
+    ext.ankoVersion = '0.10.8'
+    ext.appCompatVersion = '1.0.2'
+    ext.cardViewVersion = '1.0.0'
+    ext.cloudinaryVersion = '1.26.0'
+    ext.constraintLayoutVersion = '1.1.3'
+    ext.exifInterfaceVersion = '1.0.0'
+    ext.exoPlayerVersion = '2.8.4'
+    ext.fabricVersion = '1.31.1'
+    ext.firebaseVersion = '16.0.6'
+    ext.ffmpegVersion = '1.1.5'
+    ext.glideVersion = '4.11.0'
+    ext.gmsGoogleServices = '4.3.2'
+    ext.googleMapsUtilsVersion = '0.5'
+    ext.googleMapsVersion = '17.0.0'
+    ext.hyperlogVersion = '0.0.10'
+    ext.jodatimeVersion = '2.9.9'
+    ext.jUnitVersion = '4.12'
+    ext.JWTDecodeVersion = '1.1.1'
+    ext.keyboardVisibilityEventsVersion = '2.1.0'
+    ext.kotlinVersion = '1.3.50'
+    ext.lifecycleVersion = '2.1.0-alpha01'
+    ext.loremVersion = '2.1'
+    ext.mockWebServer = '2.7.0'
+    ext.paginateVersion = '0.5.1'
+    ext.pagingVersion = '2.1.0-rc01'
+    ext.playServicesVersion = '17.2.0'
+    ext.pushyVersion = '1.0.43'
+    ext.retrofitVersion = '2.4.0'
+    ext.roomVersion = '2.1.0-alpha03'
+    ext.signaturePad = '1.2.1'
+    ext.smartTabsVersion = '1.6.1@aar'
+    ext.stethoVersion = '1.5.0'
+    ext.subsamplingScaleImageView = '3.10.0'
+    ext.testFairyVersion = '1.+@aar'
+    ext.testRunnerVersion = '1.1.0'
+    ext.transitionVersion = '1.0.1'
+    ext.uiAutomatorVersion = '2.2.0'
+    ext.viewPagerVersion = '1.0.0'
+    ext.workManagerFirebaseVersion = '1.0.0-alpha11'
+    ext.workManagerVersion = '1.0.0-beta01'
+    ext.easyImageVersion = '3.0.4'
+    ext.dexterVersion = '6.1.2'
+    ext.textResponsiveVersion = '1.0.3'
+    ext.fuzzySearchVersion = '1.3.1'
+    ext.circleImageVersion = '3.1.0'
+    ext.realmVersion = '6.1.0'
+    ext.camerax_version = '1.0.0'
+    ext.kotlin_version = "1.4.32"
     repositories {
         google()
         jcenter()
+
+
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.3"
