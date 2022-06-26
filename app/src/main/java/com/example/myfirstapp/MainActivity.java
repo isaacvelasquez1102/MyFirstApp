@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void fillFields(){
 
-        fieldList.add(new Fields("Name", "Description", R.drawable.ic_launcher_background));
-        fieldList.add(new Fields("Name", "Description", R.drawable.ic_launcher_background));
-        fieldList.add(new Fields("Name", "Description", R.drawable.ic_launcher_background));
-        fieldList.add(new Fields("Name", "Description", R.drawable.ic_launcher_background));
-        fieldList.add(new Fields("Name", "Description", R.drawable.ic_launcher_background));
-        fieldList.add(new Fields("Name", "Description", R.drawable.ic_launcher_background));
+        fieldList.add(new Fields("Jose", "Tio", R.drawable.ic_launcher_background));
+        fieldList.add(new Fields("Isaac", "Yo", R.drawable.ic_launcher_background));
+        fieldList.add(new Fields("Juan", "Primo", R.drawable.ic_launcher_background));
+        fieldList.add(new Fields("Eugenio", "Primo", R.drawable.ic_launcher_background));
+        fieldList.add(new Fields("Katy", "Tia", R.drawable.ic_launcher_background));
+        fieldList.add(new Fields("Lucy", "Tia", R.drawable.ic_launcher_background));
     }
 }

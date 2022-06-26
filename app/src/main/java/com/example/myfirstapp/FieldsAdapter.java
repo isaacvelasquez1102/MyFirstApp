@@ -19,7 +19,6 @@ public class FieldsAdapter extends RecyclerView.Adapter<FieldsAdapter.ViewHolder
         this.fieldList = fieldList;
     }
 
-
     @NonNull
     @Override
     public ViewHolderFields onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -29,7 +28,8 @@ public class FieldsAdapter extends RecyclerView.Adapter<FieldsAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolderFields holder, int position) {
-
+        holder.nameId.setText(fieldList.get(position).getName());
+        holder.idDescription.setText(fieldList.get(position).getDescription());
     }
 
     @Override
