@@ -38,8 +38,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation "androidx.recyclerview:recyclerview:1.2.0-beta02"
-
     // Navigation
     implementation "android.arch.navigation:navigation-fragment-ktx:$androidNavigationVersion"
     implementation "android.arch.navigation:navigation-ui-ktx:$androidNavigationVersion"
